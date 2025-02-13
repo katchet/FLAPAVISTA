@@ -61,7 +61,7 @@ let bird;
         text("High Score: " + highScore, width / 2, height * 0.15);
 
         if (gameOverFlag) {
-          textSize(width * 0.08);
+          textSize(width * 0.11);
           textAlign(CENTER,CENTER);
           fill(255, 255, 255);
           text("FLAPAVISTA", width / 2, height / 2);
