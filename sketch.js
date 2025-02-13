@@ -1,6 +1,6 @@
 let bird;
       let gameOverFlag = false;
-      let pipes =;
+      let pipes =[];
       let pipeSpacing = 150;
       let nextPipe = 0;
       let pipeSpeed = 2.3;
@@ -55,14 +55,14 @@ let bird;
         }
 
         // Responsive text size
-        textSize(4vw);
+        textSize(height * 0.05);
         fill(255, 255, 255);
         text("Score: " + score, width / 2, height * 0.1);
         text("High Score: " + highScore, width / 2, height * 0.15);
 
         if (gameOverFlag) {
-          textSize(6vw);
-          textAlign(CENTER, CENTER);
+          textSize(height * 0.1);
+          textAlign(CENTER,CENTER);
           fill(255, 255, 255);
           text("FLAPAVISTA", width / 2, height / 2);
           restartButton.show();
@@ -80,7 +80,7 @@ let bird;
       function restartGame() {
         gameOverFlag = false;
         bird = new Bird();
-        pipes =;
+        pipes =[];
         nextPipe = 0;
         pipeSpeed = 2.3;
         score = 0;
