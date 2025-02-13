@@ -13,7 +13,7 @@ let bird;
         createCanvas(windowWidth, windowHeight);
         bird = new Bird();
         restartButton = createButton('PLAY');
-        restartButton.position(width / 2 - restartButton.width / 2, height / 2 + 50);
+        restartButton.position(width / 2 - restartButton.width / 2, height / 2 + 100);
         restartButton.mousePressed(restartGame);
         restartButton.hide();
 
