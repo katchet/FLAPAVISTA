@@ -151,8 +151,8 @@ let bird;
       class Pipe {
         constructor() {
           this.x = width;
-          this.topBuffer = height * 0.1; // Responsive top buffer
-          this.bottomBuffer = height * 0.1; // Responsive bottom buffer
+          this.topBuffer = height * 0.14; // Responsive top buffer
+          this.bottomBuffer = height * 0.14; // Responsive bottom buffer
           this.width = width * 0.0625; // Responsive width
           this.height = random(100, height - this.topBuffer - this.bottomBuffer - 100);
           let pipeCenter = this.height / 2;
