@@ -13,7 +13,7 @@ let bird;
         createCanvas(windowWidth, windowHeight);
         bird = new Bird();
         restartButton = createButton('PLAY');
-        restartButton.position(width / 2 - restartButton.width / 2, height / 2 + 100);
+        restartButton.position(width / 2 - restartButton.width / 2, height / 2 + 300);
         restartButton.mousePressed(restartGame);
         restartButton.hide();
 
@@ -58,7 +58,7 @@ let bird;
         textSize(width * 0.05);
         fill(255, 255, 255);
         text("Score: " + score, width / 2, height * 0.1);
-        text("High Score: " + highScore, width / 2, height * 0.15);
+        text("High Score: " + highScore, width / 2, height * 0.2);
 
         if (gameOverFlag) {
           textSize(width * 0.15);
