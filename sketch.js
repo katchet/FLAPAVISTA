@@ -12,7 +12,7 @@ let bird;
       function setup() {
         createCanvas(windowWidth, windowHeight);
         bird = new Bird();
-        restartButton = createButton('PLAY');
+        restartButton = createButton('SHIP MY ORDER');
         restartButton.position(width / 2 - restartButton.width / 2, height / 2 + 300);
         restartButton.mousePressed(restartGame);
         restartButton.hide();
