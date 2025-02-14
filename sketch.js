@@ -106,7 +106,7 @@ let bird;
           this.gravity = 0.4;
           this.velocity = 0;
           this.lift = -13;
-          this.size = width * 0.07; // Responsive size
+          this.size = width * 0.0625; // Responsive size
         }
 
         update() {
