@@ -153,7 +153,7 @@ let bird;
           this.x = width;
           this.topBuffer = height * 0.14; // Responsive top buffer
           this.bottomBuffer = height * 0.14; // Responsive bottom buffer
-          this.width = width * 0.0625; // Responsive width
+          this.width = width * 0.0315; // Responsive width
           this.height = random(100, height - this.topBuffer - this.bottomBuffer - 100);
           let pipeCenter = this.height / 2;
           let availableSpace = height - this.topBuffer - this.bottomBuffer;
